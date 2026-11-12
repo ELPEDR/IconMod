@@ -1,0 +1,4 @@
+<resources>
+    <!-- Android 10-11: system DayNight. Android 12+ overrides it with Material You (values-v31 / values-night-v31). -->
+    <style name="Theme.IconMod" parent="android:Theme.DeviceDefault.DayNight" />
+</resources>
