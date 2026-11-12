@@ -13,13 +13,11 @@ An LSPosed module for customizing icons in **Samsung One UI Home**.
   <img src="screenshots/screenshot3.jpg" alt="IconMod screenshot 3" width="32%">
 </p>
 
-The icon pack shown in the screenshots is **[iLiquid Glass Dark (Paid)](https://play.google.com/store/apps/details?id=com.eatos.iliquid.glassdark&hl=pt_BR)**. It is a third-party paid icon pack and is **not included** with IconMod.
+The icon pack shown in the screenshots is **[iLiquid Glass Dark (Paid)](https://play.google.com/store/apps/details?id=com.eatos.iliquid.glassdark&hl=pt_BR)**. It is a third-party paid icon pack and is not included with IconMod.
 
 ## Download
 
 Get the precompiled APK from the **[GitHub Releases page](https://github.com/ELPEDR/IconMod/releases)**.
-
-Check the release notes for the version and changes. If you want to build the module yourself, follow the instructions below.
 
 ## Features
 
@@ -30,6 +28,15 @@ Check the release notes for the version and changes. If you want to build the mo
 - A simple implementation of **Liquid Glass-inspired** visual styling
 
 > **Status:** Experimental / initial public release. Behavior may vary by device, One UI version, launcher build, and installed modules.
+
+## Tested environments
+
+IconMod has been tested in the following environments:
+
+- **One UI 8** — rooted device with an unlocked bootloader.
+- **One UI 9** — Samsung Galaxy S23 with temporary root access.
+
+These tests do not guarantee compatibility with every device, firmware build, or One UI version.
 
 ## Requirements
 
@@ -70,4 +77,6 @@ Please mention the exact steps that caused the issue whenever possible.
 
 ## Disclaimer
 
-IconMod is an unofficial community project. It is not affiliated with or endorsed by Samsung, LSPosed, or the Xposed developers. Launcher updates and interactions with other modules may cause instability or compatibility issues. The Liquid Glass-inspired styling is a simple visual implementation, not a full recreation of Apple's Liquid Glass design system.
+IconMod is an unofficial community project. It is not affiliated with or endorsed by Samsung, LSPosed, or the Xposed developers. Launcher updates and interactions with other modules may cause instability or compatibility issues.
+
+The Liquid Glass-inspired styling is a simple visual implementation, not a full recreation of Apple's Liquid Glass design system.
