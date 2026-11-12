@@ -1,6 +1,25 @@
 # IconMod
 
-An LSPosed module for customizing icons in Samsung One UI Home.
+An LSPosed module for customizing icons in **Samsung One UI Home**.
+
+[![Latest Release](https://img.shields.io/github/v/release/ELPEDR/IconMod?label=latest%20release)](https://github.com/ELPEDR/IconMod/releases)
+[![GitHub Downloads](https://img.shields.io/github/downloads/ELPEDR/IconMod/total)](https://github.com/ELPEDR/IconMod/releases)
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/screenshot1.jpg" alt="IconMod screenshot 1" width="32%">
+  <img src="screenshots/screenshot2.jpg" alt="IconMod screenshot 2" width="32%">
+  <img src="screenshots/screenshot3.jpg" alt="IconMod screenshot 3" width="32%">
+</p>
+
+The icon pack shown in the screenshots is **[iLiquid Glass Dark (Paid)](https://play.google.com/store/apps/details?id=com.eatos.iliquid.glassdark&hl=pt_BR)**. It is a third-party paid icon pack and is **not included** with IconMod.
+
+## Download
+
+Get the precompiled APK from the **[GitHub Releases page](https://github.com/ELPEDR/IconMod/releases)**.
+
+Check the release notes for the version and changes. If you want to build the module yourself, follow the instructions below.
 
 ## Features
 
@@ -8,6 +27,7 @@ An LSPosed module for customizing icons in Samsung One UI Home.
 - Icon rendering and icon-pack support
 - Backdrop blur and visual effects
 - Tint and related visual customization
+- A simple implementation of **Liquid Glass-inspired** visual styling
 
 > **Status:** Experimental / initial public release. Behavior may vary by device, One UI version, launcher build, and installed modules.
 
@@ -18,26 +38,36 @@ An LSPosed module for customizing icons in Samsung One UI Home.
 - LSPosed-compatible framework
 - Enable the module for One UI Home (`com.sec.android.app.launcher`)
 
-## Build
+## Installation
 
-1. Open this project in Android Studio.
-2. Allow Gradle to sync.
-3. Select **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
+1. Download the APK from [GitHub Releases](https://github.com/ELPEDR/IconMod/releases).
+2. Install the APK on your device.
+3. Open LSPosed, enable IconMod, and select **One UI Home** (`com.sec.android.app.launcher`) as its scope.
+4. Restart One UI Home or reboot the device if needed.
+
+Keep a way to disable the module if the launcher becomes unstable. Use it at your own risk.
+
+## Build from source
+
+1. Clone this repository.
+2. Open the project in Android Studio.
+3. Allow Gradle to sync.
+4. Select **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
 
 The project uses Android Gradle Plugin 8.5.2, Java 17, compile SDK 34, and the Xposed API as a compile-only dependency.
 
-## Installation
+## Bug reports
 
-1. Build and install the APK.
-2. Enable IconMod in LSPosed and select One UI Home as its scope.
-3. Restart One UI Home or reboot if needed.
+When reporting an issue, include:
 
-Use at your own risk. Keep a way to disable the module if the launcher becomes unstable.
+- Device model
+- Android version
+- One UI version
+- LSPosed version
+- Relevant logs
+
+Please mention the exact steps that caused the issue whenever possible.
 
 ## Disclaimer
 
-This is an unofficial community project. It is not affiliated with or endorsed by Samsung, LSPosed, or the Xposed developers. Launcher updates may cause instability or compatibility issues.
-
-## Bug reports
-
-When reporting an issue, include your device model, Android version, One UI version, LSPosed version, and relevant logs.
+IconMod is an unofficial community project. It is not affiliated with or endorsed by Samsung, LSPosed, or the Xposed developers. Launcher updates and interactions with other modules may cause instability or compatibility issues. The Liquid Glass-inspired styling is a simple visual implementation, not a full recreation of Apple's Liquid Glass design system.
